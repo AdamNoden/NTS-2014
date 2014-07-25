@@ -1,35 +1,85 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" ng-app="app">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="description" content="150 Characters giving a breif description of the website. Try to include keywords used on the page. ">
-		<meta name="viewport" content="width=device-width, user-scalable=yes" />
 
-		<link rel="stylesheet" type="text/css" media="all" href="_/css/main.css" />		
+		<!-- smartphone settings -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!-- main css import -->
+		<link rel="stylesheet" type="text/css" media="all" href="css/main.css" />	
+		<!-- font-awesome import -->
+		<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome/css/font-awesome.min.css">	
+		<!-- favicon -->
 		<link rel="icon" type="image/ico" href="favicon.ico"/>
-		
+		<!-- angular imports -->
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
 		<title>Site Name | Page Name | Key words</title>
 	</head>
-	
-	
 	<body>
+		<header>
+			<div class="content">
+				
+                <object type="image/svg+xml" data="images/menu.svg">Fallback</object>
+
+				<nav>
+					<ul>
+						
+						<li><a href="#">SERVICES</a></li>
+						<li><a href="#">WORK</a></li>
+						<li><a href="#">TEAM</a></li>
+						<li><a href="#">CONTACT</a></li>
+						
+					</ul>
+				</nav><!-- nav -->
+				
+
+			</div><!-- header-content -->
+		</header><!-- header -->
 		
-        <h1>Main header</h1>
-        
-        <h2>Sub header</h2>
-        
-        <div class="content example">
-            <p>
-                This is some content. 
-                <a href="#">This is a link.</a>
-            </p>
-        </div>
+		<div class="main">
+			<div class="content">
+
+				<section class="section-1">
+					<h1>hi, we're nts creative</h1>
+					<h2>we are a small, London-based team of web developers and designers</h2>
+				</section><!-- section-1 -->
+
+				<section class="section-2">
+					<h1>what we do</h1>
+
+					<h1>people we've worked with</h1>
+				</section><!-- section-2 -->
+
+				<section class="section-3">
+					<h1>some of our work</h1>
+				</section><!-- section-3 -->
+
+				<section class="section-4">
+					<h1>team</h1>
+				</section><!-- section-4 -->
+
+				<section class="section-5">
+					<h1>Contact</h1>
+				</section><!-- section-5 -->
+
+			</div><!-- main content -->
+		</div><!-- main -->
+
+		<footer>
+			<div class="content">
+                <h2>Footer</h2>
+				
+			</div><!-- footer-content -->
+		</footer><!-- footer -->
         
 
-		<!--script imports -->
-		<script type="text/javascript" src="lib/jquery.min.js"></script>
-        <script type="text/javascript" src="lib/retina.min.js"></script>
-		<script type="text/javascript" src="_/js/main.js"></script>
+		<!-- non-angular script imports -->
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- grunt development live reload -->
+        <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 		
 		<!-- Google Analytics -->
 		<script>

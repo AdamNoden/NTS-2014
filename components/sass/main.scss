@@ -1,0 +1,14 @@
+@import "compass";
+@import "compass/reset";
+
+/* 
+- if you use the _file.scss convention you can import it with just the name.
+- the order of imports does matter. below is a good convention
+*/
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "tablet";
+@import "smartphone";

@@ -1,0 +1,40 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #fff;
+}
+
+p, a, h1, h2, h3{
+	font-family: $fontPrimary;
+    line-height:160%;
+    font-weight:bold;
+}
+
+h1 {
+    font-size: 3.5em;
+    line-height:200%;
+    text-align: center;
+}
+
+h2 {
+	font-size:1.5em;
+	text-align:center;
+}
+
+h3 {
+
+}
+
+
+* {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+
+	outline: none;
+}

@@ -1,7 +1,7 @@
 // A simple Node.js static file server for development use
 // Run with the shell command "node server.js"
 
-var port = 8000,
+var port = 3000,
     express = require('express'),
     app = express();
     

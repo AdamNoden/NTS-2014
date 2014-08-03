@@ -7,8 +7,6 @@ content
 .content{
 	max-width:960px;
     margin:0px auto;
-    position:relative;
-    border:$redDev;
 }
 
 
@@ -19,21 +17,59 @@ Header
 
 header{
     z-index: 9000;
-    
-    .content{
-        position:fixed;
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 65px;
+    background: #fff;
 
-        object{
-            border:$blueDev;
+
+    .content{
+        position: relative;
+        margin: 0px auto;
+        width: 491px;
+
+        .svg-menu{
+            width:120px;
         }
 
+
         nav{
+            position:relative;;
+            overflow:hidden;
+            width: 100%;
+            margin: 0 auto;
+            
 
             ul{
 
+                .svg-logo{
+                    width: 50px;
+                    position: relative;
+                    margin: 5px 20px;
+                    float: left;
+                }
+
                 li{
                     display:block;
-                    text-decoration: none;
+                    margin-top:20px;
+                    width: 100px;
+                    position: relative;
+                    float: left;
+                    text-align: center;
+
+                    a{
+                        text-decoration: none;
+                        padding:5px 10px 5px 10px;
+                        font-size: 14px;
+
+
+                        &:hover{
+                           //padding-left:38px; 
+                           text-decoration: underline;
+                        }
+                    }
                 }
             }
         }
@@ -46,9 +82,6 @@ header{
 
 
 
-
-
-
 /**********
 Main 
 **********/
@@ -56,42 +89,87 @@ Main
 .main{
 
     section{
+        
+        min-height:100vh;
 
+        h1{
+            margin-top:10vh;
+        }
     }
 
     .section-1{
-        height:100%;
+        
+        h1{
+            margin-top:25vh;
+        }
+
+
+        .svg-down{
+            display: block; 
+            width:80px;
+            margin:0px auto;
+            margin-top:10vh;
+
+        }
+        
+        
     }
 
     .section-2{
         
+        .svg-wwd{
+            display: block;
+            margin:0px auto;
+            max-width:800px;
+            margin-top:10vh;
+        }
     }
 
     .section-3{
-        
+
+        h1{
+            margin-bottom: 8vh;
+        }
+
+        .client-row{
+
+            .client-logo{
+                width:23%;
+                margin-right:10px;
+                margin-top:20px;
+            }
+        }
+
+        .row-2-img{
+            margin-left:13%;
+        }
     }
 
     .section-4{
         
+        .team-card{
+            @include border-radius(8px);
+            border:2px solid $mainRed;
+            padding:20px;
+            width:240px;
+        }
+    }
+
+    .section-5{
+
     }
 
 }
 
 
 
-
-
-
-
-/***************
-Footer
-***************/
-
-footer {
-  
+footer{
+    .svg-footer{
+        display: block; 
+        width:120px;
+        margin:0px auto;
+    }
 }
-
-
 
 
 

@@ -148,10 +148,29 @@ Main
     .section-4{
         
         .team-card{
+            position: relative;
             @include border-radius(8px);
             border:2px solid $mainRed;
-            padding:20px;
-            width:240px;
+            width:310px;
+            height: 140px;
+
+            h2{
+                position: absolute;
+                left: 30px;
+                top: 25px;
+            }
+
+            h3{
+                position: absolute;
+                left: 30px;
+                top: 60px;
+            }
+
+            img{
+                position: absolute;
+                right: 30px;
+                top: 50px;
+            }
         }
     }
 

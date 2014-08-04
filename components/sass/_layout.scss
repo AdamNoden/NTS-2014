@@ -89,7 +89,6 @@ Main
 .main{
 
     section{
-        
         min-height:100vh;
 
         h1{
@@ -126,6 +125,7 @@ Main
     }
 
     .section-3{
+        min-height:80vh;
 
         h1{
             margin-bottom: 8vh;
@@ -142,6 +142,21 @@ Main
 
         .row-2-img{
             margin-left:13%;
+        }
+
+        
+    }
+
+    .client-shots{
+        overflow: auto;
+        margin-bottom: 270px;
+
+        img{
+            position: relative;
+            float: left;
+            width: 33.3%;
+            margin: 0px;
+            padding: 0px;
         }
     }
 

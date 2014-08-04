@@ -34,7 +34,7 @@ module.exports= function(grunt){
         // TASK 3: watch for changes
         watch:{
             
-            options: {livereload:true}, // reload browser on save
+            //options: {livereload:true}, // reload browser on save
 
             scripts: { 
                 files:['components/js/*.js'], // files to watch

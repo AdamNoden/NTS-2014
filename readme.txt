@@ -1,4 +1,4 @@
-CUSTOM WORKFLOW
+WORKFLOW
 
 Things you need:
 node

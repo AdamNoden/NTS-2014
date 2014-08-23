@@ -1,8 +1,9 @@
-NTS 2014
+NTS Redesign
 ====================
 
-Bare tings to cover on the next training day before you can a)run the project and b) get up to speed with the github development flow.
+NTS Creative website redesign Summer 2014
 
-But its all fairly simple and should transform your way of life.
+Designed by <a href="http://adamnoden.co.uk/" target="_blank">Adam Noden</a> and <a href="http://efstathios.ntscreative.co.uk/" target="_blank">Efstathios Stivaros</a>
 
-I'm changing this using legit Markdown _fam_.
+
+&copy; NTS Creative 2014

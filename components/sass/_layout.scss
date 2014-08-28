@@ -176,13 +176,31 @@ Main
 
     .section-4{
         
+    }
+
+}
+
+
+
+footer{
+
+    h1{
+        margin-bottom: 4vh;
+    }
+
+    .team-card-container{
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        overflow: auto;
+        max-width: 490px;
+
         .team-card{
-            margin: 0 auto;
-            margin-top: 40px;
+            margin: 20px 0px;
             position: relative;
             @include border-radius(8px);
-            border:3px solid $mainRed;
-
+            //border:3px solid $mainRed;
+            float: left;
             width:240px;
 
             a:hover{
@@ -223,16 +241,6 @@ Main
 
             }
         }
-    }
-
-}
-
-
-
-footer{
-
-    h1{
-        margin-bottom: 7vh;
     }
 
     .mail-button-container{

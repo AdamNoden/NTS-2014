@@ -55,9 +55,17 @@ Smartphones
 	        }
 
 	        .svg-wwd{
-	            max-width:700px;
-	            margin-top:12vh;
+	            display: none;
 	        }
+
+	        .svg-wwd2{
+	        	display: block;
+            	margin:0px auto;
+            	max-width: 160px;
+            	margin-top: 30px;
+            	margin-bottom: 50px;
+	        }
+
 	        
 	    }
 

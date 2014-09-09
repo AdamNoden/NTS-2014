@@ -44,12 +44,17 @@ Tablet
 	**********/
 
 	.main{
+		min-height: 100%;
 
+		section{
+			min-height: 100%;
+		
+		}
 
 	    .section-1{
 	        
 	        h1{
-	            margin-top:15vh;
+	            margin-top:15%;
 	        }
 
 	        h2{
@@ -58,13 +63,13 @@ Tablet
 
 	        .svg-wwd{
 	            max-width:600px;
-	            margin-top:12vh;
+	            margin-top:12%;
 	        }
 	        
 	    }
 
 	    .section-4{
-	    	margin-bottom: 3vh;
+	    	margin-bottom: 3%;
 	    }
 
 	}

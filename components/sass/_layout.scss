@@ -8,7 +8,7 @@ Header
 
 header{
     z-index: 9000;
-    position:relative;
+    position:absolute;
     left: 0px;
     right: 0px;
     top: 0px;
@@ -36,24 +36,24 @@ Main
     position: relative;
     max-width:960px;
     margin:0px auto;
-    height: 100%;
+    min-height: 100vh;
 
     section{
         background: #fff;
         position: relative;
-        height:100%;
+        min-height:100vh;
         border: 1px solid blue;
 
 
         h1{
-            margin-top:10%;
+            margin-top:10vh;
         }
     }
 
     .section-1{
         
         h1{
-            margin-top:15%;
+            margin-top:18vh;
         }
 
 
@@ -61,7 +61,7 @@ Main
             display: block; 
             width:80px;
             margin:0px auto;
-            margin-top:10%;
+            margin-top:10vh;
 
         }
 
@@ -69,7 +69,7 @@ Main
             display: block;
             margin:0px auto;
             max-width:750px;
-            margin-top:7%;
+            margin-top:7vh;
         }
 
         .svg-wwd2{
@@ -85,15 +85,15 @@ Main
             display: block;
             margin:0px auto;
             max-width:800px;
-            margin-top:10%;
+            margin-top:10vh;
         }
     }
 
     .section-3{
-        min-height:80%;
+        min-height:80vh;
 
         h1{
-            margin-bottom: 8%;
+            margin-bottom: 8vh;
         }
 
         .client-row{
@@ -177,7 +177,7 @@ Main
             position: relative;
             width: 80px;
             height: 90px;
-            margin-bottom: 15%;
+            margin-bottom: 15vh;
 
             img{
                 width: 100%;
